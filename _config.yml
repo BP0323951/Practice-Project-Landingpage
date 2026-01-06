@@ -3,3 +3,12 @@ logo: /Images/LOGO.png
 #description: text below image
 show_downloads: true
 theme: jekyll-theme-minimal 
+
+# Navigation links for the left sidebar
+navigation:
+  - title: Back
+    url: "/index"
+  - title: Report 1
+    url: "/reports/report-1/report-1.md"
+  - title: Report 2
+    url: "/reports/report-2.md"
