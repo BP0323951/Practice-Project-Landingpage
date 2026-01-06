@@ -66,7 +66,7 @@ The data set is split into df_test and df_train,a random state is specified with
 Initially figure 1.1 was recreated, as closely as possible, using the subset dataset. Instead of ‘Percentage of Max Points’ the ‘Achieved QOF Points’ was used (absolute value and not percentage of total). Figure 1.4 shows that while IMD Quintile 5 (least deprived practices) do indeed receive more points that IMD Quintile 1 (most deprived) the difference becomes minimal when the y-axis is drawn to zero. Furthermore, this effect is negated when the points are converted into monetary values.
 
 <figure>
-  <img src="{{ 'images/fig_1_4.png'| relative_url }}"
+  <img src="{{ '/reports/report-1/images/fig_1_4.png'| relative_url }}"
        alt="Figure 1.4"
        style="max-width:80%; height:auto;">
 </figure>
