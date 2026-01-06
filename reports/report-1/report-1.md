@@ -2,6 +2,8 @@
 layout: default
 ---
 
+[⬅ Back to Reports Landing Page](/index)
+
 # Deprivation and GP Quality Outcome Payments
 
 ### Executive Summary
