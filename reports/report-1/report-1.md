@@ -12,7 +12,7 @@ _“QOF rewards GP practices for the provision of 'quality care' and helps to fu
 In 2023 the Health Equity Evidence Centre published a compelling online article called “Structural inequalities in primary care – the facts and figures” (Appel and Ford, 2023). This examined QOF and included the graph in figure 1.1 which appears to indicate more deprived GP practices achieve less QOF points. Thus QOF does not reduce inequality.
 
 <figure>
-  <img src="{{ 'images/fig_1_1.png' | relative_url }}"
+  <img src="{{ '/reports/report-1/images/fig_1_1.png' | relative_url }}"
        alt="Figure 1.1"
        style="max-width:75%; height:auto;">
   <figcaption>
@@ -35,7 +35,7 @@ This project demonstrates that neither prevalence of disease nor deprivation rel
 A variety of open source data will be used from multiple sources. Using the Government Data Quality Framework (The Government Data Quality Framework, 2020) the data quality will be assessed and the data joined, illustrated in figure 1.2 
 
 <figure>
-  <img src="{{ 'images/qof_data_eng_diagram.png' | relative_url }}"
+  <img src="{{ '/reports/report-1/images/qof_data_eng_diagram.png' | relative_url }}"
        alt="Figure 1.2"
        style="max-width:60%; height:auto;">
   <figcaption>
@@ -52,7 +52,7 @@ All joins were performed on a 1-1 basis, or many-1, in both instances the left h
 Before joining to practice postcode data, a derived field name ‘ACHIEVED’ is created from the QOF Data and checked for data consistency, see figure 1.3 for code and output.
 
 <figure>
-  <img src="{{ 'images/fig_1_3.png'| relative_url }}"
+  <img src="{{ '/reports/report-1/images/fig_1_3.png'| relative_url }}"
        alt="Figure 1.3"
        style="max-width:75%; height:auto;">
   <figcaption>
@@ -74,13 +74,13 @@ Initially figure 1.1 was recreated, as closely as possible, using the subset dat
 This suggests that standard deviation will be low, figure 1.5 shows a regression plot between IMD Rank (a component of IMD Quintile) and ACHIEVED QOF points, the relationship does appear weak. 
 
 <figure>
-  <img src="{{ 'images/fig_1_5.svg'| relative_url }}"
+  <img src="{{ '/reports/report-1/images/fig_1_5.svg'| relative_url }}"
        alt="Figure 1.5"
        style="max-width:80%; height:auto;">
 </figure>
 
 <figure>
-  <img src="{{ 'images/fig_1_6.png'| relative_url }}"
+  <img src="{{ '/reports/report-1/images/fig_1_6.png'| relative_url }}"
        alt="Figure 1.6"
        style="max-width:80%; height:auto;">
 </figure>
@@ -91,13 +91,13 @@ Figure 1.6 illustrates the correlation matrix between all possible features. As 
 Within Python the ‘statsmodels’ package was used. This package shares similarities with R syntax making it interpretable for a wider audience. The model was created using the ‘df_train’ dataframe and whilst the model summary is invaluable it does not test the df_test dataframe. A mixture of sklearn and numpy packages along with a locally defined function will be used to test the model.  
 
 <figure>
-  <img src="{{ 'images/fig_1_7_table.png'| relative_url }}"
+  <img src="{{ '/reports/report-1/images/fig_1_7_table.png'| relative_url }}"
        alt="Figure 1.7"
        style="max-width:80%; height:auto;">
 </figure>
 
 <figure>
-  <img src="{{ 'images/fig_1_7_2.png'| relative_url }}"
+  <img src="{{ '/reports/report-1/images/fig_1_7_2.png'| relative_url }}"
        alt="Figure 1.7.2"
        style="max-width:80%; height:auto;">
 </figure>
@@ -108,9 +108,9 @@ However, with reference to the original graph which started the project (figure 
 
 <figure class="double-figure">
   <div class="double-figure-images">
-    <img src="{{ 'images/fig_1_8_1.png.png' | relative_url }}"
+    <img src="{{ '/reports/report-1/images/fig_1_8_1.png.png' | relative_url }}"
          alt="Figure 1.8.1">
-    <img src="{{ 'images/fig_1_8_2.png.png' | relative_url }}"
+    <img src="{{ '/reports/report-1/images/fig_1_8_2.png.png' | relative_url }}"
          alt="Figure 1.8.2">
   </div>
 
